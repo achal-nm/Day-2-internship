@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    text-align:justify;
+    display: flex;
+    padding: 10px 10px;
+    height: 100px;
+    background-color: black;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.navigation a{
+    text-decoration:none;
+    color: white;
+    height: 40px;
+    font-size: 30px;
+}
+.navigation a:hover{
+    background-color: white;
+    color: navy;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+.banner-section img{
+    width: 99vw;
+    height: 95vh;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color:none;
+    top: 0px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    z-index: 100;
+    color: white;
+    line-height: 30px;
+}
+.text h2{
+    font-size: 75px;
+}
+
+.text h4{
+    height: 30px;
+    font-size: 25px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+    height: 30px;
+}
+.inputs input{
+    width: 100%;
+    height: inherit;
+}
+.inputs button{
+    width: 150px;
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+
+}
+.sign{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background-color:brown;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+}
+.main-image{
+    filter: brightness(0.4);
+}
+.second-block{
+    display: flex;
+}
+.second-block .subImg Img{
+    width: 50vw;
+    height: 100%;
+    
+
+}
+.second-block .subtext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto auto;
+    gap: 10px;
+}
+.question{
+    background-color: grey;
+    color: white;
+}
+.question p{
+    display: none;
+}
+.question:hover p{
+    display: block;
+}
+.question h2{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+.question:hover .symbol{
+    transform: rotate(45deg);
+}
